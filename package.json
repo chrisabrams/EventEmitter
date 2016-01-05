@@ -1,5 +1,5 @@
 {
-    "name": "wolfy87-eventemitter",
+    "name": "chrisabrams-eventemitter",
     "version": "4.3.0",
     "description": "Event based JavaScript for the browser",
     "main": "EventEmitter.js",
@@ -9,7 +9,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/Olical/EventEmitter.git"
+        "url": "git://github.com/chrisabrams/EventEmitter.git"
     },
     "keywords": [
         "eventemitter",
@@ -18,14 +18,13 @@
         "amd"
     ],
     "author": {
-        "name": "Oliver Caldwell",
-        "email": "olliec87@gmail.com",
-        "url": "http://oli.me.uk/"
+        "name": "Chris Abrams",
+        "email": "mail@chrisabrams.com"
     },
     "license": "Unlicense",
     "readmeFilename": "README.md",
     "bugs": {
-        "url": "https://github.com/Olical/EventEmitter/issues"
+        "url": "https://github.com/chrisabrams/EventEmitter/issues"
     },
     "devDependencies": {
         "uglify-js": "*",

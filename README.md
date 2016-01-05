@@ -1,6 +1,5 @@
 # EventEmitter
-
-[![Gitter](https://badges.gitter.im/Join Chat.svg)][gitter]
+Fork of Oliver Caldwell's Event Emitter - transformed into ES6 class and made some updates to support webpack.
 
 ## Event based JavaScript for the browser
 
