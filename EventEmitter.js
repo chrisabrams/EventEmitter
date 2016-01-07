@@ -145,7 +145,10 @@
     * @param {Array} [args] Optional array of arguments to be passed to each listener.
     * @return {Object} Current instance of EventEmitter for chaining.
     */
-   emitEvent(evt, args) {
+   emitEvent(evt) {
+     var args = Array.prototype.slice.call(arguments)
+     args.shift()
+
      var listenersMap = this.getListenersAsObject(evt)
      var listeners
      var listener
@@ -167,7 +170,7 @@
              this.removeListener(evt, listener.listener)
            }
 
-           response = listener.listener.apply(this, args || [])
+           response = listener.listener.apply(this, args)
 
            if(response === this._getOnceReturnValue()) {
              this.removeListener(evt, listener.listener)
